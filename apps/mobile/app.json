@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Spiritual Events",
+    "slug": "spiritual-events",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.spiritualevents"
+    },
+    "android": {
+      "package": "com.yourcompany.spiritualevents"
+    },
+    "extra": {
+      "apiBaseUrl": "${EXPO_PUBLIC_API_URL}"
+    }
+  }
+}

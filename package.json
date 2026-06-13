@@ -1,0 +1,23 @@
+{
+  "name": "spiritual-events-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "build:web": "npm --workspace apps/web run build",
+    "lint:web": "npm --workspace apps/web run lint",
+    "db:generate": "npm --workspace apps/web run db:generate",
+    "db:migrate": "npm --workspace apps/web run db:migrate",
+    "db:seed": "npm --workspace apps/web run db:seed",
+    "db:studio": "npm --workspace apps/web run db:studio"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
